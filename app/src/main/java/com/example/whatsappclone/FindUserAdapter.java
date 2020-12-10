@@ -23,6 +23,7 @@ public class FindUserAdapter extends RecyclerView.Adapter<FindUserAdapter.ViewHo
 
     public void setUsers(ArrayList<UserObject> users) {
         this.users = users;
+        notifyDataSetChanged();
     }
 
     @NonNull
